@@ -1,6 +1,6 @@
 # cpp-torch-from-scratch
 
-A C++ CPU and CUDA-GPU implementation of the deep-learning library - Torch from scratch containing modular layers with forward and backward propagations, a general optimizer class, and a sequential class with training and validation.
+**A C++ CPU and CUDA-GPU implementation of the deep-learning library - Torch from scratch containing modular layers with forward and backward propagations, a general optimizer class, and a sequential class with training and validation.**
 
 ## External Dependecies
 * Linux
@@ -8,7 +8,7 @@ A C++ CPU and CUDA-GPU implementation of the deep-learning library - Torch from 
 * [CUDA][https://developer.nvidia.com/cuda-downloads]
 
 ## Structure
-* The project contains two implementations, a CPU implementation using the Eigen linear algebra library and a GPU implementation using the barebones CUDA framework and raw C arrays.
+* **The project contains two implementations, a CPU implementation using the Eigen linear algebra library and a GPU implementation using the barebones CUDA framework and raw C arrays.**
 * [CPU_Implementation](https://github.com/sidd-1234/cpp-torch-from-scratch/blob/main/CPU_Implementation)
     * base.hpp - Contains a weight initializer and the base Module and Optimizer classes that all layers and optimizers will inherit.
     * module.hpp - Includes specific implementation of modular layers such as the dense layer, activation layers, etc.
