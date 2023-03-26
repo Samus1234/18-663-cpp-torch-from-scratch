@@ -1,6 +1,6 @@
-# cpp-torch-from-scratch
+# 18-663-cpp-torch-from-scratch
 
-**A C++ CPU and CUDA-GPU implementation of the deep-learning library - Torch from scratch containing modular layers with forward and backward propagations, a general optimizer class, and a sequential class with training and validation.**
+**A C++ CPU and CUDA-GPU implementation of the deep-learning library - Torch from scratch containing modular layers with forward and backward propagations, a general optimizer class, and a sequential class with training and validation. Project for 18-661 Introduction to Machine Learning**
 
 ## External Dependecies
 * Linux
